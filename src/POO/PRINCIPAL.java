@@ -15,14 +15,24 @@ public class PRINCIPAL {
         
         Fogão fogão = new Fogão();
         
-        
-        
-        
        fogão.setModelo("Tramontina");
        fogão.setMaterial("inox");
        fogão.setVoltage(220);
        fogão.setBocas(4);
+       
        fogão.impreçãoDeDadosFogão();
+       
+       Mesa mesa = new Mesa();
+       
+       mesa.setModelo("Mesa de Jantar");
+       mesa.setMaterial("Madeira de Carvalho");
+       mesa.setTipoDeMesa("Retangular");
+       mesa.setQuantosLugares(4);
+       
+       mesa.impreçãoDeDadosMesa();
+       
+       
+       
     }
           
 }
